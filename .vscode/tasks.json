@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Task12",
+      "type": "shell",
+      "command": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\g++.exe",
+      "args": [
+        "-std=c++17",
+        "${workspaceFolder}\\task12.cpp",
+        "-o",
+        "${workspaceFolder}\\task12.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
